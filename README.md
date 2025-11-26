@@ -23,7 +23,7 @@
 2.  **Diseñar** una arquitectura donde la IA actúe como cerebro central.
 3.  **Solucionar** problemas reales: roturas de stock, colas y falta de datos.
 
-### 👤 Autor
-* **Nombre:** [Tu Nombre]
-* **Curso:** 1º DaW.B
-* **Fecha:** Noviembre 2023
+### 👤 Autores
+* **Nombre:** Alejandro, David, Ismael y Laura
+* **Curso:** 1º DAW(Tarde)
+* **Fecha:** Noviembre 2025
