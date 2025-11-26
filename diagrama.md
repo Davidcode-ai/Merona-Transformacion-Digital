@@ -1,23 +1,22 @@
+# Diagrama Mermaid de IT + OT + IA
+
+```mermaid
 graph TD
-    %% Planta (OT)
-    PlantaOT[Planta OT] --> IoT[IoT y Sensores]
-    PlantaOT --> RFID[RFID y Códigos de Barras]
-    IoT --> Plataforma[Plataforma de Datos]
-    RFID --> Plataforma
-    Plataforma --> MotorIA[Motor de Inteligencia Artificial]
-    MotorIA --> OptPlanta[Optimización y Decisiones en Planta]
+A[Planta - Almacén (OT)] --> B[IoT y Sensores Inteligentes]
+A --> C[RFID y Lectura de Códigos de Barras]
+A --> D[Machine Learning - Previsión de Demanda]
+B --> H[Plataforma de Datos]
+C --> H
+D --> H
 
-    %% Negocio (IT)
-    NegocioIT[Negocio IT] --> ERP[ERP Conectado]
-    NegocioIT --> CRM[CRM con IA]
-    NegocioIT --> Chatbot[Chatbot con IA]
-    ERP --> Plataforma
-    CRM --> Plataforma
-    Chatbot --> Plataforma
-    Plataforma --> OptNegocio[Optimización y Decisiones en Negocio]
+E[Negocio (IT)] --> F[ERP Conectado]
+E --> G[CRM con IA]
+E --> I[Chatbot con IA]
+E --> J[Base de Datos]
+F --> H
+G --> H
+I --> H
+J --> H
 
-    %% Colores para diferenciar
-    classDef planta fill:#f9f,stroke:#333,stroke-width:1px;
-    classDef negocio fill:#9ff,stroke:#333,stroke-width:1px;
-    class PlantaOT,IoT,RFID,OptPlanta planta;
-    class NegocioIT,ERP,CRM,Chatbot,OptNegocio negocio;
+H --> K[Motor de Inteligencia Artificial]
+K --> L[Decisiones Automáticas y Optimización]
