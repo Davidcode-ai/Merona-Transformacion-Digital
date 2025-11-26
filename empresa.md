@@ -1,23 +1,29 @@
-# Ficha de la Empresa
+🏠 [Volver al Inicio](README.md) | ⚙️ [Tecnologías](tecnologias.md) | 📊 [Diagrama](diagrama.md) | 🚀 [Transformación](transformacion_digital.md) | 🧠 [Reflexión](reflexion.md)
 
-**Empresa:** EcoMerc  
-**Sector:** Comercio  
-**Características principales:** Pequeño supermercado con tienda física y almacén para suministros.  
-**Productos:** Alimentos, productos de higiene, productos para mascotas y otros.  
-**Clientes:** Residentes locales, familias y jóvenes de 18 a 65 años  
+---
 
-**Funcionamiento actual inicial:**
-- Inventario en papel, control manual de stock
-- Compras a proveedores basadas en experiencia y demanda histórica
-- Caja tradicional, sin automatización
-- Marketing genérico (carteles y folletos)
-- Poca digitalización en el negocio
+# 🏢 Ficha de Empresa: EcoMerc
 
-**Problemas iniciales:**
-- Roturas de stock frecuentes: la demanda de algunos productos no se conoce y provoca escasez.
-- Exceso de inventario en productos poco vendidos: compras no ajustadas a la demanda real.
-- Marketing poco efectivo y sin segmentación: carteles y revistas físicas sin seguimiento.
-- Procesos lentos y propensos a errores humanos: inventario manual y cajas bloqueadas.
+### 📍 Perfil General
+* **Nombre:** EcoMerc
+* **Sector:** Retail / Comercio Minorista de Alimentación.
+* **Tamaño:** Pequeña Empresa (PYME).
+* **Estructura:** 1 Tienda física + 1 Almacén trasero conectado.
 
-**Objetivo:**  
-Solucionar estos problemas, crecer digitalizando y transformando la empresa mediante la integración de la IA.
+### 👥 Cliente Objetivo
+Residentes del barrio, familias y jóvenes que valoran la cercanía pero demandan agilidad. Rango 18-65 años.
+
+---
+
+### 📉 Situación Actual (As Is)
+Actualmente, EcoMerc opera de manera tradicional y analógica.
+
+| Área | Estado Actual | Problema Detectado |
+| :--- | :--- | :--- |
+| **Inventario** | 📝 Manual (papel y boli) | Errores constantes y desconocimiento del stock real. |
+| **Reposición** | 👁️ Visual / Intuitiva | **Roturas de stock** (estanterías vacías) o exceso de producto. |
+| **Ventas** | 📠 Caja Registradora simple | Colas largas y cero datos sobre *quién* compra. |
+| **Marketing** | 📄 Carteles en papel | Poca efectividad, no llega al cliente digital. |
+
+### 🎯 El Reto
+Transformar EcoMerc en un **"Smart Market"** donde los datos fluyan desde la estantería hasta la oficina de gestión automáticamente.
