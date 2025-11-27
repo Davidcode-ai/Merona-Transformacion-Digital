@@ -7,24 +7,19 @@
 Hemos dividido las tecnologías en dos capas (Física y Lógica) unidas por la Inteligencia Artificial.
 
 ### 1. Planta / OT (Operational Technology)
-*Tecnologías que "tocan" el producto físico y al cliente en tienda.*
+*Tecnologías que digitalizan el mundo físico.*
 
-| Tecnología | Uso en EcoMerc | Justificación (Beneficio) |
-| :--- | :--- | :--- |
-| **IoT y Sensores** | Sensores de peso en estanterías. | Detectan *físicamente* la falta de producto. Ideal para líquidos/latas donde el RFID falla. |
-| **RFID** | Etiquetas inteligentes en palets/cajas. | **Uso en Almacén:** Inventarios masivos instantáneos de recepción de mercancía. |
-| **Visión Artificial** | Cámaras cenitales. | Analizan mapas de calor y detectan huecos en estanterías visualmente. |
-| **Kioscos Autocobro**| Terminales táctiles de pago. | Eliminan las colas para compras pequeñas y digitalizan el ticket. |
+| Tecnología | Uso en EcoMerc | Tipo de IA / Técnica | Justificación (Beneficio) |
+| :--- | :--- | :--- | :--- |
+| **IoT y Sensores** | Sensores de peso en estanterías. | **Sistemas Embebidos** | Detectan *físicamente* la falta de producto en tiempo real, evitando el conteo manual. |
+| **Cámaras Inteligentes** | Monitoreo de pasillos. | **Computer Vision (YOLO)** | Generan mapas de calor para saber qué zonas miran más los clientes y detectar huecos. |
+| **Lectores RFID** | Arcos en almacén y caja. | **Procesamiento de Señales** | Permiten inventarios masivos instantáneos sin necesidad de línea de visión directa. |
 
 ### 2. Negocio / IT (Information Technology)
-*Tecnologías que gestionan la información.*
+*Tecnologías que gestionan la información y decisiones.*
 
-| Tecnología | Uso en EcoMerc | Justificación (Beneficio) |
-| :--- | :--- | :--- |
-| **ERP Cloud** | Sistema central de gestión. | Centraliza compras y contabilidad (SaaS accesible vía web). |
-| **CRM Inteligente** | Base de datos de clientes. | Permite segmentar y personalizar la oferta según historial. |
-| **Chatbot NLP** | Atención al cliente Web/App. | Resuelve dudas 24/7 liberando al personal de tienda. |
-
-### 3. El Motor de IA
-La IA no es una herramienta más, es el **orquestador en la Nube**:
-> Los **Servicios Cognitivos (Cloud AI)** cruzarán los datos del **IoT (OT)** con el historial de ventas del **ERP (IT)** para predecir la demanda futura con una precisión del 90%.
+| Tecnología | Uso en EcoMerc | Tipo de IA / Técnica | Justificación (Beneficio) |
+| :--- | :--- | :--- | :--- |
+| **ERP Cloud** | Sistema central de gestión. | **Cloud Computing** | Centraliza compras y contabilidad (Modelo SaaS para reducir costes iniciales). |
+| **Motor de Predicción** | Cálculo de compras. | **Machine Learning (Regresión)** | Cruza historial de ventas, clima y festivos para predecir la demanda futura con precisión. |
+| **CRM Inteligente** | App de Clientes. | **Sistemas de Recomendación** | Personaliza ofertas ("Si compraste leche, te ofrezco galletas") aumentando el ticket medio. 
