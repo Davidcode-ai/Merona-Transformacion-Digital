@@ -29,3 +29,28 @@ Al digitalizar de extremo a extremo, EcoMerc obtiene:
 1.  **Eficiencia Operativa:** Reducción de horas hombre en tareas repetitivas.
 2.  **Fidelización:** El cliente encuentra lo que quiere, cuando quiere.
 3.  **Sostenibilidad:** Menos desperdicio de alimentos gracias a la previsión precisa.
+
+### 👥 Impacto en la Estructura Organizativa
+La implementación de la IA no solo cambia la tecnología, sino que reestructura el organigrama para hacerlo más estratégico y menos manual.
+
+```mermaid
+graph TD
+    subgraph ANTES [Estructura Tradicional - 18 Empleados]
+        J1[Jefe] --> O1[Jefe Organización]
+        O1 --> A1[4x Almacén Manual]
+        O1 --> T1[2x Transportistas]
+        J1 --> V1[5x Cajeros/Reponedores]
+    end
+
+    subgraph DESPUES [Estructura Digital - 14 Empleados + IA]
+        J2[Jefe] --> D1[Admin Base de Datos / IA]
+        J2 --> O2[Jefe Logística]
+        O2 --> A2[2x Supervisores Robotización]
+        O2 --> T2[2x Transportistas]
+        J2 --> V2[4x Asesores de Cliente]
+        IA[🤖 Motor IA] -.->|Automatiza conteo| A1
+        IA -.->|Previsión rutas| T2
+    end
+    
+    style ANTES fill:#f9f,stroke:#333,stroke-width:2px
+    style DESPUES fill:#bbf,stroke:#333,stroke-width:2px
