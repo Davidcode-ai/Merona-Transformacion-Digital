@@ -13,6 +13,7 @@
 | 🏢 **[La Empresa](./empresa.md)** | Ficha técnica, situación actual y problemática de EcoMerc. |
 | ⚙️ **[Tecnologías](./tecnologias.md)** | Selección de herramientas IoT, Software y Algoritmos. |
 | 📊 **[Diagrama Arquitectura](./diagrama.md)** | Visualización gráfica de la conexión IT/OT/IA (Mermaid). |
+| 📖 **[Digitalización](./digitalizacion.md)** | Explicación de digitalización en planta (OT) y negocio (IT). |
 | 🚀 **[Plan de Transformación](./transformacion_digital.md)** | Propuesta de implementación y mejoras operativas. |
 | 🧠 **[Reflexión IA](./reflexion.md)** | Impacto en el sector, futuro y comparativas. |
 
