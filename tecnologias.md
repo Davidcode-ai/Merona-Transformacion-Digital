@@ -1,3 +1,7 @@
+🏠 [Volver al Inicio](README.md) | 🏢 [Empresa](empresa.md) | ⚙️ [Tecnologías](tecnologias.md) | 🚀 [Transformación](transformacion_digital.md) | 🧠 [Reflexión](reflexion.md)
+
+---
+
 # ⚙️ Stack Tecnológico Seleccionado
 
 Hemos dividido las tecnologías en dos capas (Física y Lógica) unidas por la Inteligencia Artificial.
