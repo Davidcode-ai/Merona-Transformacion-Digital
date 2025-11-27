@@ -53,9 +53,13 @@ graph TD
         O2 --> A2[2x Supervisores Robotización]
         O2 --> T2[2x Transportistas]
         J2 --> V2[4x Asesores de Cliente]
-        IA[🤖 Motor IA] -.->|Automatiza conteo| A1
-        IA -.->|Previsión rutas| T2
+        
+        %% La IA interactúa con la NUEVA estructura
+        IA[🤖 Motor IA Central] === D1
+        IA -.->|Alertas de Stock| A2
+        IA -.->|Optimización de Ruta| T2
     end
     
-    style ANTES fill:#f9f,stroke:#333,stroke-width:2px
-    style DESPUES fill:#bbf,stroke:#333,stroke-width:2px
+    style ANTES fill:#f9f,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+    style DESPUES fill:#bbf,stroke:#333,stroke-width:4px
+    style IA fill:#ff9,stroke:#f66,stroke-width:2px,color:black
