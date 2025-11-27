@@ -1,19 +1,19 @@
-🏠 [Volver al Inicio](README.md) | 🏢 [Empresa](empresa.md) | ⚙️ [Tecnologías](tecnologias.md) | 🚀 [Transformación](transformacion_digital.md) | 🧠 [Reflexión](reflexion.md)
+[Volver al Inicio](README.md) | [Empresa](empresa.md) | [Tecnologías](tecnologias.md) | [Digitalización](digitalizacion.md) | [Transformación](transformacion_digital.md) | [Reflexión](reflexion.md)
 
 ---
 
-# 📊 Arquitectura de la Solución (IT + OT + IA)
+# Arquitectura de la Solución (IT + OT + IA)
 
 Este diagrama representa cómo fluyen los datos desde la planta física hasta el sistema de negocio, pasando por el motor de Inteligencia Artificial.
 
 ```mermaid
 graph LR
     %% Subgrafo de PLANTA (OT)
-    subgraph OT [🏭 PLANTA - Operaciones Físicas]
+    subgraph OT [PLANTA - Operaciones Físicas]
         direction TB
-        A[📡 Sensores IoT]
-        B[🏷️ Lectores RFID]
-        C[📹 Cámaras Visión]
+        A[Sensores IoT]
+        B[Lectores RFID]
+        C[Cámaras Visión]
         D(Concentrador de Datos)
         
         A --> D
@@ -22,18 +22,18 @@ graph LR
     end
 
     %% Subgrafo de INTELIGENCIA ARTIFICIAL
-    subgraph IA [🧠 MOTOR DE INTELIGENCIA ARTIFICIAL]
+    subgraph IA [MOTOR DE INTELIGENCIA ARTIFICIAL]
         direction TB
-        Motor{🤖 Algoritmo ML}
+        Motor{Algoritmo ML}
     end
 
     %% Subgrafo de NEGOCIO (IT)
-    subgraph IT [💻 NEGOCIO - Gestión Digital]
+    subgraph IT [NEGOCIO - Gestión Digital]
         direction TB
-        E[🖥️ ERP Gestión]
-        F[👥 CRM Clientes]
-        G[📱 App Móvil]
-        H(☁️ Data Lake / Nube)
+        E[ERP Gestión]
+        F[CRM Clientes]
+        G[App Móvil]
+        H(Data Lake / Nube)
 
         H --> E
         H --> F
