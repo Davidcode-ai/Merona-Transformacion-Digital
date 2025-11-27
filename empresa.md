@@ -11,7 +11,7 @@ Residentes del barrio, familias y jóvenes que valoran la cercanía pero demanda
 
 ---
 
-### 📉 Situación Actual (As Is)
+### 📉 Situación Actual
 Actualmente, EcoMerc opera de manera tradicional y analógica.
 
 | Área | Estado Actual | Problema Detectado |
@@ -25,8 +25,8 @@ Actualmente, EcoMerc opera de manera tradicional y analógica.
 
 ### 💰 Estrategia de Viabilidad (SaaS)
 Para hacer accesible esta transformación a una PYME, **no se desarrollará software propio**. Se contratarán servicios en la nube de pago por uso (SaaS):
-* **Inversión inicial (CAPEX) baja:** Alquiler de hardware y sensores.
-* **Coste operativo (OPEX) predecible:** Suscripciones mensuales a plataformas de IA y ERP en la nube.
+* **Inversión inicial baja:** Alquiler de hardware y sensores.
+* **Coste operativo predecible:** Suscripciones mensuales a plataformas de IA y ERP en la nube.
 
 ### 🎯 El Reto
 Transformar EcoMerc en un **"Smart Market"** viable económicamente, donde los datos fluyan desde la estantería hasta la oficina de gestión automáticamente.
